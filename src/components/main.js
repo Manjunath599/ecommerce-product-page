@@ -58,7 +58,7 @@ export default function Main() {
                         <span>{amount}</span>
                         <img onClick={() => setAmount(amount + 1)} className="w-3 h-3 cursor-pointer" src="./images/icon-plus.svg" alt="plus" />
                     </div>
-                    <button onClick={() => setCartOpen(!cartOpen)} className="bg-[#ff7d1a] h-10 w-72 text-white rounded-lg flex justify-center items-center mt-5 lg:mt-0 lg:ml-4"><img src="/images/icon-cart.svg" alt="cart" />Add to cart</button>
+                    <button onClick={() => setCartOpen(!cartOpen)} className="bg-[#ff7d1a] h-10 w-72 text-white rounded-lg flex justify-center items-center mt-5 lg:mt-0 lg:ml-4"><img src="./images/icon-cart.svg" alt="cart" />Add to cart</button>
                 </div>
             </section>
         </main>
